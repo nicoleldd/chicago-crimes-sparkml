@@ -30,5 +30,5 @@ Trabalho de classificação binária com **PySpark** e **Spark ML** sobre as oco
 6. **Modelagem:** ajuste de hiperparâmetros por validação (cruzada na regressão logística e `TrainValidationSplit` na Random Forest) e *baselines*.
 7. **Avaliação:** AUC-ROC, AUC-PR, precisão, recall, F1, matrizes de confusão, curvas ROC e Precisão×Recall (calculadas no Spark), sensibilidade ao limiar, importância de variáveis e coeficientes, desempenho por tipo de ocorrência, **validação temporal** (treina no passado, testa no último ano) e **ablação** (quanto cada grupo de atributos acrescenta).
 8. **Persistência:** `PipelineModel` salvo, recarregado e conferido (predições idênticas), mais um exemplo de uso com uma ocorrência nova.
-9. **Conclusão, limitações e melhorias futuras.**
+9. **Conclusão**
 
